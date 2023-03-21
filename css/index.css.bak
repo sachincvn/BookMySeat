@@ -1,0 +1,185 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Segoe UI;
+}
+.title{
+	color:white;
+	margin: 10px;
+	font-size: 1.5rem;
+}
+.header{
+	height: 4rem;
+	display: flex;
+	background: black;
+	align-items: center;
+}
+.select-ticket{
+	margin: 1rem;
+	height: 1.5rem;
+	width: 10rem;
+	font-size: .9rem;
+}
+.select-qty{
+	margin: 1rem;
+	height: 1.5rem;
+	width: 4rem;
+	font-size: .9rem;
+}
+.container{
+	display: flex;
+	justify-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 1.2rem;
+}
+.main-container{
+	display: flex;
+	flex-direction: row;
+}
+.column-1{
+	overflow: hidden;
+	overflow-y: scroll;
+	margin: 1rem;
+	padding: .5rem;
+	width: 70%;
+	height: 25rem;
+	border: 1px solid black;
+}
+.column-2{
+	margin: 1rem;
+	padding: .5rem;
+	width: 20%;
+	height: 25rem;
+	border: 1px solid black;
+}
+
+.seat-available{
+	display: inline-block;
+	margin: .2rem;
+	height: 1.5rem;
+	width: 1.5rem;
+	text-align: center;
+	font-size: .8rem;
+	cursor: pointer;
+	background: white;
+	color: #1ea83c;
+	border: 1px solid #1ea83c;
+}
+.seat-unavailable{
+	display: inline-block;
+	margin: .2rem;
+	height: 1.5rem;
+	width: 1.5rem;
+	text-align: center;
+	font-size: .8rem;
+	cursor: not-allowed;
+	background: grey;
+	border: 1px solid black;
+}
+.seat-selected{
+	display: inline-block;
+	margin: .2rem;
+	height: 1.5rem;
+	width: 1.5rem;
+	text-align: center;
+	font-size: .8rem;
+	cursor: pointer;
+	background: #1ea83c;
+	border: 1px solid #1ea83c;
+}
+
+.select-seats{
+	display: inline-block;
+	margin: .2rem;
+	height: 1.5rem;
+	width: 1.5rem;
+	text-align: center;
+	font-size: .8rem;
+	cursor: pointer;
+	background-color: white;
+	color: #1ea83c;
+	border: 1px solid #1ea83c;
+}
+
+.seat-space{
+	display: inline-block;
+	margin: .2rem;
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.select{
+	background-color: #1ea83c;
+	color: white;
+	display: inline-block;
+	margin: .2rem;
+	height: 1.5rem;
+	width: 1.5rem;
+	text-align: center;
+	font-size: .8rem;
+	cursor: pointer;
+	border: 1px solid #1ea83c;
+}
+.select-seats:hover{
+	background-color: #1ea83c;
+	color: white;
+}	
+.seats{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.seatName{
+	margin-right: auto;
+}
+
+.layout-title{
+	margin-left: 1.8rem;
+}
+
+.primary-btn{
+	display:inline-block;
+	font-size: 1rem;
+	font-style: bold;
+	background: black;
+	text-align: center;
+	color: white;
+	border: 1px solid black;
+	border-radius: 8px;
+	height: 2rem;
+	width: 10rem;
+	cursor: pointer;
+}
+
+
+/* Form Page CSS  */
+
+.info{
+	font-size: 1.5rem;
+	text-align: left;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.input-form{
+	margin: 2rem;
+	padding: .5rem;
+}
+th{
+	text-align: left;
+}
+label{
+	margin: .2rem;
+	font-size: 1rem;
+	text-align: left;
+	font-weight: normal;
+}
+td input{
+	margin: .2rem;
+	margin-left: .5rem;
+	padding: .1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 25rem;
+	height: 2rem;
+}

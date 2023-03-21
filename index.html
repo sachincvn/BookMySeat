@@ -1,0 +1,91 @@
+<html>
+<head> 
+<title> Book My Show </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="css/index.css">
+<script src="js/script.js"></script>
+</head>
+<body>
+<header>
+	<div class="header">
+		<h1 class="title"> BookMyShow </h1>
+	</div>
+</header>
+<div class="container">
+	<center >
+		<h1> Book My Seat Form </h1> 
+		<form action="bookseats.html" method="GET" class="input-form">
+			<table>
+			<!-- Row One  -->
+				<tr>
+					<th colspan=3><p class="info">VALUES FOR ROW ONE</p></th>
+				</tr>
+				<hr>
+				<tr>
+				<th> <label for="C1Row"> Enter Value For Row Seats </label> </th>
+				<th> : </th>
+				<td> <input name="C1Row" type="text" pattern="[0-9]+" placeholder="Enter Value Of Row"/> </td>
+				</tr>
+				
+				<tr>
+				<th> <label for="C1Col"> Enter Value For Column Seats </label> </th>
+				<th> : </th>
+				<td> <input name="C1Col" type="text" pattern="[0-9]+" pattern="[0-9]+"placeholder="Enter Value Of Column"/> </td>
+				</tr>
+				
+				<!-- Row Two  -->
+				<tr>
+					<th colspan=3><p class="info">VALUES FOR ROW TWO</p></th>
+				</tr>
+				<tr>
+				<th> <label for="C3Row"> Enter Value For Row Seats </label> </th>
+				<th> : </th>
+				<td> <input name="C2Row" type="text" pattern="[0-9]+" placeholder="Enter Value Of Row"/> </td>
+				</tr>
+				
+				<tr>
+				<th> <label for="C2Col"> Enter Value For Column Seats </label> </th>
+				<th> : </th>
+				<td> <input name="C2Col" type="text" pattern="[0-9]+" placeholder="Enter Value Of Column"/> </td>
+				</tr>
+				
+				
+				<!-- Row Three  -->
+				<tr>
+					<th colspan=3><p class="info">VALUES FOR ROW THREE</p></th>
+				</tr>
+				<tr>
+				<tr>
+				<th> <label for="C3Row"> Enter Value For Row Seats </label> </th>
+				<th> : </th>
+				<td> <input name="C3Row" type="text" pattern="[0-9]+" placeholder="Enter Value Of Row"/> </td>
+				</tr>
+				
+				<tr>
+				<th> <label for="C3Col"> Enter Value For Column Seats </label> </th>
+				<th> : </th>
+				<td> <input name="C3Col" type="text" pattern="[0-9]+" placeholder="Enter Value Of Column"/> </td>
+				</tr>
+				
+				
+				<!-- SPACES -->
+				<tr>
+					<th colspan=3><p class="info">VALUES FOR SPACE AFTER SEATS</p></th>
+				</tr>
+				
+				<tr>
+				<th> <label for="RowSpace"> Enter Value For Space </label> </th>
+				<th> : </th>
+				<td> <input name="RowSpace" type="text" pattern="[0-9]+" placeholder="Enter The Value Row : Must Be Less Then Row Value"/> </td>
+				</tr>
+				
+				<tr>
+					<th colspan=3> <center> <input class="primary-btn" type="submit" value="SUBMIT"/> </center> </td>
+				</tr>
+			</table>
+		</form>
+	</center>
+</div>
+</body>
+</html>

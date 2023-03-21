@@ -1,0 +1,84 @@
+<html>
+<head> 
+<title> Book My Show </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="css/index.css">
+<script src="js/script.js"></script>
+</head>
+<body>
+<header>
+	<div class="header">
+		<h1 class="title"> BookMySeat </h1>
+	</div>
+</header>
+
+
+<div class="container">
+	<div class="sm-container">
+
+		<select id="ticketType" class="select-ticket">
+			<option selected disabled> Ticket Type </option>
+			<option value="premium"> Premium </option>
+			<option value="classic"> Classic </option>
+			<option value="standard"> Standard </option>
+		</select>
+		
+		<select id="ticketQuantity" class="select-qty">
+			<option selected disabled> QTY </option>
+			<option value="1"> 1 </option>
+			<option value="2"> 2 </option>
+			<option value="3"> 3 </option>
+			<option value="4"> 4 </option>
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+		</select>
+		
+		<button id="changeView" class="primary-btn">Change Seats View </button>
+	</div>
+
+	<div class="main-container">
+
+		<!-- Column For Selecting Ticket's -->
+		
+		<div class="column-1">	
+			<script>
+			
+			document.write("<span>Premium</span> </br><hr style='height:2px;border-width:0;color:#E3E3E3;background-color:#E3E3E3'>");
+			addSeats(alphabetStart,columnOneValue,C1Row,RowSpace);
+			
+			document.write("<span>Classic</span> </br><hr style='height:2px;border-width:0;color:#E3E3E3;background-color:#E3E3E3'>");
+			addSeats(columnOneValue,columnTwoValue,C2Row,RowSpace);
+		
+			document.write("<span>Standard</span> </br><hr style='height:2px;border-width:0;color:#E3E3E3;background-color:#E3E3E3'>");
+			addSeats(columnTwoValue,columnThreeValue,C3Row,RowSpace);
+			
+			</script>
+		</div>
+		
+		<!-- Column For Key To Seat Layout -->
+		<div class="column-2">
+			<b style="font-size:15px;">Key To Seat Layout:</b> </br></br>
+			
+			<div class="seat-available">
+				<span style="color:black" class="layout-title"> Available </span>
+			</div></br>
+			
+			<div class="seat-unavailable">
+				<span class="layout-title"> Unavailable </span>
+			</div></br>
+			
+			<div class="seat-selected">
+				<span class="layout-title"> Selected </span>
+			</div></br>
+		</div>
+	</div>
+</div>
+<center>
+
+<input id="submit" class="primary-btn" type="submit" value="SUBMIT"/>
+</center>
+
+
+</body>
+</html>
